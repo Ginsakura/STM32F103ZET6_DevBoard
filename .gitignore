@@ -1,4 +1,8 @@
+# folders
 STM32F103ZET6_Develop_Board-backups/
+.vs/
+
+# files
 _autosave*
 fp-info-cache
 *.pdf
