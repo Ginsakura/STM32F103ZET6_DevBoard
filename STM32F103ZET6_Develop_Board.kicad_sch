@@ -1,0 +1,1035 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b8ab143a-3d78-4796-a72e-6fa25465e0c1")
+	(paper "A4")
+	(title_block
+		(title "STM32F103ZET6 Core Board")
+		(date "2024-10-26")
+		(rev "0.0.1")
+		(company "Designer: Ginsakura")
+	)
+	(lib_symbols)
+	(junction
+		(at 57.15 149.225)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "31680a31-9d2f-438e-9cf5-60e59c8ef50d")
+	)
+	(junction
+		(at 57.15 133.985)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "4861f66a-a085-46e1-9d98-11d431c8030a")
+	)
+	(junction
+		(at 57.15 139.7)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "78074fa6-b31e-4102-bf3e-2f22172ad06d")
+	)
+	(junction
+		(at 57.15 130.175)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "b909f238-cca8-4bb6-94fe-8db35d34b14e")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "12e7d766-ae0e-405f-90a5-ffe351122912")
+	)
+	(wire
+		(pts
+			(xy 82.55 160.02) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3ffaa1-146d-4d57-abb2-ba536e25ff40")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.225) (xy 57.15 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "32f69115-7f14-403d-9a54-87f603c075c1")
+	)
+	(wire
+		(pts
+			(xy 82.55 128.905) (xy 107.95 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 127 0 1)
+		)
+		(uuid "4ec0ea4f-75a6-4610-b165-5223ae6659f7")
+	)
+	(wire
+		(pts
+			(xy 82.55 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6286d26a-7d82-47a8-85cf-9cd3370f76e0")
+	)
+	(wire
+		(pts
+			(xy 82.55 157.48) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63520110-a959-4e74-998d-8780442872cd")
+	)
+	(wire
+		(pts
+			(xy 57.15 168.275) (xy 63.5 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "64a66684-fec2-4652-b832-3f87b57f449b")
+	)
+	(wire
+		(pts
+			(xy 57.15 133.985) (xy 107.95 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "71ce85e9-28d3-4394-9553-966e83768a39")
+	)
+	(wire
+		(pts
+			(xy 82.55 147.32) (xy 107.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577b143-9725-44f0-bcbb-1491e25c276c")
+	)
+	(wire
+		(pts
+			(xy 82.55 166.37) (xy 107.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "86062d1b-141f-4175-ae42-194bf0711060")
+	)
+	(wire
+		(pts
+			(xy 44.45 130.175) (xy 57.15 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "867dca0b-94ea-4650-9397-713a22fb105c")
+	)
+	(wire
+		(pts
+			(xy 82.55 170.18) (xy 107.95 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e5037b-1e37-4d41-8c5d-68440bc16e6f")
+	)
+	(wire
+		(pts
+			(xy 57.15 139.7) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8b01f2c7-bb58-484f-9038-7c5d971046c8")
+	)
+	(wire
+		(pts
+			(xy 82.55 131.445) (xy 107.95 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 127 255 255 1)
+		)
+		(uuid "8e0b713c-a4b3-4c9f-88a5-4c1521016497")
+	)
+	(wire
+		(pts
+			(xy 57.15 133.985) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "917539ea-b5ad-4df1-b431-42db9691b86e")
+	)
+	(wire
+		(pts
+			(xy 82.55 119.38) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96effe92-415e-4fed-8b3f-dbf145a84bd8")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 57.15 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a5d64c73-9aa5-4ce3-b6cd-d81ad9964f7b")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.225) (xy 69.85 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a9c266ef-4563-4942-a4c0-e5cb7c5dc1c5")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.985) (xy 57.15 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bb8b1401-d587-4dfa-9efa-95de620f3c8e")
+	)
+	(wire
+		(pts
+			(xy 57.15 139.7) (xy 57.15 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c6195707-8321-4482-a5be-6ad1aea56341")
+	)
+	(wire
+		(pts
+			(xy 57.15 130.175) (xy 69.85 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c8537394-d197-49d1-b957-e1c10d9ba5ca")
+	)
+	(wire
+		(pts
+			(xy 82.55 168.275) (xy 107.95 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce25d6e-7f75-42cc-ad7f-2305e6834b36")
+	)
+	(wire
+		(pts
+			(xy 82.55 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "d2eed5e8-622b-437d-b973-3b83da192103")
+	)
+	(wire
+		(pts
+			(xy 82.55 121.92) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea24fc19-67d8-4f6a-8561-3eab9170da13")
+	)
+	(sheet
+		(at 69.85 146.05)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1726d1a8-aad5-4c37-8c24-1f1215b7f90c")
+		(property "Sheetname" "Boot"
+			(at 69.85 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/Boot.kicad_sch"
+			(at 69.85 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BOOT1" output
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e80b4283-f279-4857-82bd-dbe1e477c27c")
+		)
+		(pin "BOOT0" output
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76918ead-233e-4b0f-8ceb-d9322cae6849")
+		)
+		(pin "3V3" input
+			(at 69.85 149.225 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "fc4a02fb-8bdb-41e9-b35b-c4a7548ea0e9")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 155.575)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d56b9b8-9a37-4d82-b43d-4aab1dbcd073")
+		(property "Sheetname" "RCC_OSC"
+			(at 69.85 154.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/RCC_OSC.kicad_sch"
+			(at 69.85 162.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OSC_IN" output
+			(at 82.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce91597e-2fa6-4247-b47a-288ed0e29b44")
+		)
+		(pin "OSC_OUT" input
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbe6a83c-594f-4199-9007-a1d48edfdc7a")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 42.545)
+		(size 57.15 128.905)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2051efbd-a350-423a-bb48-beb8ce61d39e")
+		(property "Sheetname" "ZET6Core"
+			(at 107.95 41.8334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/ZET6Core.kicad_sch"
+			(at 107.95 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BOOT0" input
+			(at 107.95 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3a70ac6-649c-4449-bd97-90bc1671a6d6")
+		)
+		(pin "OSC_OUT" output
+			(at 107.95 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bc1885b-d935-45ca-9538-4dd5c34675ad")
+		)
+		(pin "OSC_IN" input
+			(at 107.95 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88f2d448-e68b-4b1a-8e7b-707033a0e5c6")
+		)
+		(pin "BOOT1" input
+			(at 107.95 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f5f1b50-c92a-4cb1-ae4f-751bff3ce817")
+		)
+		(pin "PB2" bidirectional
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34cb4c05-9480-4349-a15e-d09301070ee6")
+		)
+		(pin "NRST" input
+			(at 107.95 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 0 1)
+				)
+				(justify left)
+			)
+			(uuid "3c959980-d97a-4ea0-aec3-e12de089f354")
+		)
+		(pin "PC15" bidirectional
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c314246b-b2f4-4eac-8a10-21fc149cc84a")
+		)
+		(pin "OSC32K_OUT" output
+			(at 107.95 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d3f6bbb-1f07-463b-9685-dff533f208d6")
+		)
+		(pin "PC14" bidirectional
+			(at 165.1 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdf62512-f502-4b73-986a-40fefb874398")
+		)
+		(pin "OSC32K_IN" input
+			(at 107.95 168.275 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab2109e3-ffc4-458d-afe4-140c2b34ff14")
+		)
+		(pin "VREF-" output
+			(at 107.95 131.445 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 127 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "f20fd86f-360c-4e70-b3df-7b3869ab041f")
+		)
+		(pin "VREF+" input
+			(at 107.95 128.905 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 127 0 1)
+				)
+				(justify left)
+			)
+			(uuid "8c0af433-8b0e-44e9-a613-32c7406a14ba")
+		)
+		(pin "VBAT" input
+			(at 107.95 166.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 4 0 1)
+				)
+				(justify left)
+			)
+			(uuid "12284937-a83a-49f0-a3f0-eb0d6835e64c")
+		)
+		(pin "3V3" input
+			(at 107.95 133.985 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "e63d6be0-db1d-4dd8-b5c4-534eced0d57d")
+		)
+		(pin "PA11" bidirectional
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "799cf680-4b02-471c-9b30-414687b91901")
+		)
+		(pin "PA12" bidirectional
+			(at 165.1 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a908071e-083d-431a-a4c4-c1baa73aa203")
+		)
+		(pin "USB_DM" bidirectional
+			(at 107.95 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9f0c712-4fb5-4866-a0f2-7309c94735b1")
+		)
+		(pin "USB_DP" bidirectional
+			(at 107.95 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6be0c05d-ddcc-492b-b5e2-a02a01910c4b")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 128.905)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "418176fa-a2c9-42c8-a6cd-8344333caf4a")
+		(property "Sheetname" "5V->3.3V"
+			(at 31.75 128.1934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/5V_3.3V.kicad_sch"
+			(at 31.75 135.8396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3V3" output
+			(at 44.45 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "ceef8de6-fdc2-4907-9ade-ee1260367440")
+		)
+		(pin "5V" input
+			(at 44.45 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "41967207-67db-4ac4-8c19-4e84f76b4ec4")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 117.475)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "555fcd27-2aa0-4ba7-8c25-69347aa862a5")
+		(property "Sheetname" "USB Receptacle"
+			(at 69.85 116.7634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/USB_Receptacle.kicad_sch"
+			(at 69.85 124.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5V" output
+			(at 69.85 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "d80632f3-eba7-4836-a200-c3b43c659946")
+		)
+		(pin "USB_DP" bidirectional
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1118bdc-2696-429e-b2c0-ea47137cba88")
+		)
+		(pin "USB_DM" bidirectional
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27557e79-58fb-4df4-9a2f-1c61274f9d56")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 127)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59b196dd-39ef-4ad7-849a-6caa10ed70e4")
+		(property "Sheetname" "3V3 REF"
+			(at 69.85 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/3.3V_REF.kicad_sch"
+			(at 69.85 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5V" input
+			(at 69.85 130.175 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "a368e314-d121-424d-ab83-9ade389db639")
+		)
+		(pin "VREF-" input
+			(at 82.55 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "d82a4e58-2a75-4121-b652-0486c2ce1d16")
+		)
+		(pin "VREF+" output
+			(at 82.55 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 127 0 1)
+				)
+				(justify right)
+			)
+			(uuid "866e69e4-8529-48f4-b449-2abab358ccfb")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 136.525)
+		(size 12.7 6.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1e35586-010f-4f70-86fd-824d665e5c78")
+		(property "Sheetname" "Reset"
+			(at 69.85 135.8134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/Reset.kicad_sch"
+			(at 69.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NRST" output
+			(at 82.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 0 1)
+				)
+				(justify right)
+			)
+			(uuid "145b5d42-6134-443b-9827-e8a5a44c9f7c")
+		)
+		(pin "3V3" input
+			(at 69.85 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "494748c8-ea36-4a25-a7e3-e574b9776b6c")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 190.5)
+		(size 12.7 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5953daa-8a60-47e1-988a-02be5e296149")
+		(property "Sheetname" "备用件"
+			(at 12.7 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/Backup.kicad_sch"
+			(at 12.7 197.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 165.1)
+		(size 19.05 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f628e0c2-fe3f-47e0-827e-03197ba35cee")
+		(property "Sheetname" "VBAT OSC32K"
+			(at 63.5 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic/VBAT_OSC32K.kicad_sch"
+			(at 63.5 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LowOSC_IN" output
+			(at 82.55 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0cf75fe-25a8-4e66-a1a7-86142904866d")
+		)
+		(pin "LowOSC_OUT" input
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "869a96fe-c6e9-4482-bd4f-93ae55f8db73")
+		)
+		(pin "VBAT" output
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 4 0 1)
+				)
+				(justify right)
+			)
+			(uuid "9b38c291-597c-4a08-b62b-4ede65187567")
+		)
+		(pin "3V3" input
+			(at 63.5 168.275 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "88413376-f616-4b94-a479-c3238910dd89")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

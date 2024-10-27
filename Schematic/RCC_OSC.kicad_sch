@@ -1,0 +1,981 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f6f84695-f220-452d-88b9-2c0b41d7dfb0")
+	(paper "A5")
+	(title_block
+		(title "RCC OSC")
+		(date "2024-10-26")
+		(company "Designer: Ginsakura")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Elektuur:X-crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "X-crystal"
+				(at 0.635 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "piezoelectric crystal; xtal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=1 1=2 2=3 2=4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "C"
+				(at -2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Indicator" "+"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "±ppm"
+				(at -0.635 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "X piezoelectric piezo-electric crystal xtal x-tal quartz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X-crystal_1_1"
+				(rectangle
+					(start -1.905 -1.143)
+					(end 1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.905 1.905)
+					(end 1.905 1.143)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -0.635) (xy 2.667 -0.635) (xy 2.667 0.635) (xy -2.667 0.635) (xy -2.667 -0.635) (xy -2.5654 -0.5334)
+						(xy -2.5654 0.5334) (xy 2.5654 0.5334) (xy 2.5654 -0.5334) (xy -2.5654 -0.5334) (xy -2.667 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.175)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.175)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "X-crystal_1_2"
+				(rectangle
+					(start -1.1938 -1.2954)
+					(end 1.1938 -1.7526)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.1938 1.7526)
+					(end 1.1938 1.2954)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.5334) (xy 1.905 -0.5334) (xy 1.905 0.5334) (xy -1.905 0.5334) (xy -1.905 -0.5334)
+						(xy -1.8034 -0.4318) (xy -1.8034 0.4318) (xy 1.8034 0.4318) (xy 1.8034 -0.4318) (xy -1.8034 -0.4318)
+						(xy -1.905 -0.5334)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.3274)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.3274)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 97.155 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57fa300d-988f-43ba-a7c5-092a8c15793d")
+	)
+	(junction
+		(at 97.155 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63017303-39c8-4158-8fee-81a0398090b3")
+	)
+	(junction
+		(at 83.185 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a01f283-8afa-4aae-986b-018b82d01e37")
+	)
+	(wire
+		(pts
+			(xy 93.345 70.485) (xy 97.155 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9f7b2e-a2c5-4c30-9578-01ca960f3973")
+	)
+	(wire
+		(pts
+			(xy 109.855 71.755) (xy 98.425 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239df311-3483-416c-b217-6a346502a467")
+	)
+	(wire
+		(pts
+			(xy 83.185 70.485) (xy 83.185 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 127 127 255 1)
+		)
+		(uuid "43a691e9-718d-4412-90ac-31199286ab73")
+	)
+	(wire
+		(pts
+			(xy 83.185 60.325) (xy 83.185 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 127 127 255 1)
+		)
+		(uuid "664b659b-74d3-4a63-885c-c398ecbef65e")
+	)
+	(wire
+		(pts
+			(xy 93.345 60.325) (xy 97.155 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b31bc0a-72a9-4891-9774-f13c0b99d449")
+	)
+	(wire
+		(pts
+			(xy 83.185 70.485) (xy 85.725 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 127 127 255 1)
+		)
+		(uuid "6fbf9e98-7dc8-4bf2-b3af-c6336b3e8c7d")
+	)
+	(wire
+		(pts
+			(xy 98.425 71.755) (xy 97.155 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dabb13-5a88-4943-a9c5-a69bc3dfe837")
+	)
+	(wire
+		(pts
+			(xy 98.425 59.055) (xy 97.155 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ec538e-27b0-480d-b52a-5c6cb5819c88")
+	)
+	(wire
+		(pts
+			(xy 98.425 59.055) (xy 109.855 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c06c25-b4b9-4505-bf46-4b3fe791db7a")
+	)
+	(wire
+		(pts
+			(xy 83.185 60.325) (xy 85.725 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 127 127 255 1)
+		)
+		(uuid "fb49d08f-6977-4465-9e54-3fc184d92c6d")
+	)
+	(hierarchical_label "OSC_OUT"
+		(shape input)
+		(at 109.855 71.755 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3acb23ec-e774-4604-91e8-e5f4820fe105")
+	)
+	(hierarchical_label "OSC_IN"
+		(shape output)
+		(at 109.855 59.055 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "881224d5-488d-4c93-8595-da4e09bc4c18")
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 83.185 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49730766-32c3-4a46-ad94-eeb5efa46e89")
+		(property "Reference" "#PWR04"
+			(at 83.185 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 83.185 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.185 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.185 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 83.185 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce561e3-0c51-49ce-9c99-a625740117b8")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1/1d56b9b8-9a37-4d82-b43d-4aab1dbcd073"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 89.535 60.325 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b6b884-ab6c-4b1e-a272-e2600ef5a6f5")
+		(property "Reference" "C13"
+			(at 86.36 59.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 93.345 59.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 93.345 59.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 89.535 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63042c6a-b015-49a3-9352-4f7fc39ffca5")
+		)
+		(pin "2"
+			(uuid "d647c93d-d3c4-4654-becc-058a7dfdf108")
+		)
+		(instances
+			(project ""
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1/1d56b9b8-9a37-4d82-b43d-4aab1dbcd073"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:X-crystal")
+		(at 97.155 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adb65073-b009-49b0-b688-b410816d4e6d")
+		(property "Reference" "X1"
+			(at 99.695 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+			(at 97.155 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "piezoelectric crystal; xtal"
+			(at 97.155 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" "SPICE"
+			(at 97.155 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 95.885 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "±ppm"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b179ef5-0f7e-4939-a7ef-110f2858413c")
+		)
+		(pin "2"
+			(uuid "c9aea427-39e4-4336-bec5-e637fed635e0")
+		)
+		(instances
+			(project ""
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1/1d56b9b8-9a37-4d82-b43d-4aab1dbcd073"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 89.535 70.485 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3976823-1381-44fc-bb4a-a3c3a151490a")
+		(property "Reference" "C14"
+			(at 86.36 69.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 93.345 69.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 93.345 69.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.535 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 89.535 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db9a909-bab5-4134-ae43-c0610e86bf38")
+		)
+		(pin "2"
+			(uuid "8a388cb9-2c51-4065-949d-93e5635c2a80")
+		)
+		(instances
+			(project "STM32F103ZET6_Develop_Board"
+				(path "/b8ab143a-3d78-4796-a72e-6fa25465e0c1/1d56b9b8-9a37-4d82-b43d-4aab1dbcd073"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

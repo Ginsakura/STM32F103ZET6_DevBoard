@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bd457b4f-c1de-4eb3-9c0c-827f1b8264cd")
+	(paper "A5")
+	(title_block
+		(title "Backup")
+		(date "2024-10-26")
+		(company "Designer: Ginsakura")
+	)
+	(lib_symbols)
+)
